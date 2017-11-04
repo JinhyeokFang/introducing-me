@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="initial-scale=1, width=device-width"/> 
+  <meta name="theme-color" content="#000000"> 
+  
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="/stylesheet.css">
+</head>
+<body>
+  <div class="block">
+    <h1>
+      전등1
+    </h1>
+    <p id="light1">
+      켜짐
+    </p>
+    <button id="light1Button" onclick="light1Button();">
+      끄기
+    </button>
+  </div>
+  <div class="block">
+    <h1>
+      현관문
+    </h1>
+    <p id="door1">
+      열림
+    </p>
+    <button id="door1Button" onclick="door1Button();">
+      닫기
+    </button>
+  </div>
+  <div class="block">
+    <h1>
+      방1 현재 온도    
+    </h1>
+    <p id="temperature1">
+      
+    </p>
+  </div>
+  <div class="block">
+    <h1>
+      방1 현재 밝기    
+    </h1>
+    <p id="bright1">
+      
+    </p>
+  </div>
+  <div class="block">
+    <h1>
+      집안 미세먼지   
+    </h1>
+    <p id="dust">
+      
+    </p>
+  </div>
+  <div class="block">
+    <h1>
+      초인종    
+    </h1>
+    <p id="bell">
+      
+    </p>
+  </div>
+
+
+  <audio id="bellAudio">
+    <source src="bell.wav" type="audio/wav">
+  </audio>
+  <script src="/arduinoConnecter.js"></script>
+</body>
+</html>

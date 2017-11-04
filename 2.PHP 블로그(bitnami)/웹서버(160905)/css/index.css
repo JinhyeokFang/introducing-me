@@ -1,0 +1,44 @@
+body{
+  border: 10px solid black;
+  height: 3000px;
+}
+#birthday_b {
+  font-family: monospace;;
+  font-size: 35px;
+  border-right: 5px solid black;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+#birthday_img {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  padding-left: 8px;
+  margin-top: 5px;
+  margin-bottom: -7px;
+}
+#index_link{
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  padding-left: 10px;
+  padding-right: 261px;
+  color: black;
+  text-decoration: none;
+
+}
+#lv-container{
+  padding-top: 200px;
+}
+#lv-b{
+  font-family: monospace;
+  font-size: 30px;
+  padding-left: 500px;
+}
+h1 {
+  font-family: monospace;;
+  font-size: 50px;
+  border-bottom: 7px solid black;
+  padding-left: 10px;
+  margin-bottom: -0px;
+}

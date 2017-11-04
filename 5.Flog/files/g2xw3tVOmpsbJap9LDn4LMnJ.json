@@ -1,0 +1,16 @@
+{
+  "name": "flog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "mkdir files; node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "jade": "~1.3.0",
+    "mongoose": "^4.10.0"
+  }
+}

@@ -1,0 +1,20 @@
+html
+    head
+        title Your FileBlog, F.LOG
+        meta(charset="utf-8")
+        link(rel='stylesheet', href='/stylesheets/index.css')
+    body
+        div(id='body')
+            header(id='head')
+                h1(id='title') hello
+            article(id='article')
+                h2(id="welcome")= username
+                p(id="link")
+                    a(href="./blog") blog
+                    p
+                    a(href="./write") write
+                    p
+                    a(href="./signout") signout
+                
+            footer(id="foot")
+                span(id="information") developed by JinhyeokBang

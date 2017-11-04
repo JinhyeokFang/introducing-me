@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+}
+
+#background {
+  min-width: 960px;
+  border: 5px solid black;
+  background-color: silver;
+}
+
+#logo {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border-bottom: 5px solid black;
+  background-color: gold;
+}
+
+.special {
+  background-color: pink;
+  margin: 30px;
+  padding-bottom: 30px;
+  border: 5px solid black;
+}
+
+.specialP {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 5px solid black;
+}
+
+.specialp {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.specialNotice {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.input {
+  margin-left: 30px;
+}
+
+.DIV {
+  background-color: lightgreen;
+  margin: 30px;
+  padding-bottom: 30px;
+  border: 5px solid black;
+}
+
+.H2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 5px solid black;
+}
+
+.P {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.B {
+  font-size: 12.5px;
+}
+
+.IMG {
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 10px solid black;
+}

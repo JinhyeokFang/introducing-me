@@ -1,0 +1,9 @@
+<div class="special">
+  <p class="specialP">아두이노</p>
+  <p class="specialp">전등1</p>
+  <form action="led1.php" method="POST">
+    <p class="specialNotice">전등을 켜시려면 체크박스를 누르고 입력을 눌러 주세요.</p>
+    <a href="processing/arduino/arduino.ino">연결 펌웨어</a>
+    <input type="radio" name="on" value="led1">
+    <input type="submit" name="입력" value="입력">
+    <p class="specialNotice">전등의 상태입니다:

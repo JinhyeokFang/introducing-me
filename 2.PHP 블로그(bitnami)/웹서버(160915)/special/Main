@@ -1,0 +1,22 @@
+<div class="special">
+  <p class="specialP">Main</p>
+    <p class="specialp">게시글 올리기</p>
+    <form action="upload.php" method="POST">
+                <input class = "input" type="text" name="h" value="제목">
+                <input type="text" name="p" value="내용">
+                <input type="text" name="id" value="id">
+                <input type="password" name="password" value="password">
+                <input type="submit" name="입력" value="입력">
+            </form>
+    <br>
+    <p class="specialp">회원가입</p>
+    <p class="specialNotice">패스워드는 숫자로만 되어있어야 합니다.</p>
+      <form action="sss.php" method="POST">
+                  <input class = "input" type="text" name="id" value="id">
+                  <input type="password" name="password" value="password">
+                  <input type="submit" name="입력" value="입력">
+              </form>
+    <br>
+    <p class="specialp">업데이트 내용</p>
+    <p class="specialNotice">로그인 기능 추가.<br>게시글 기능 개선</p>
+  </div>
